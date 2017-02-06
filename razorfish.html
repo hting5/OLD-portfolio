@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	
+	
+	<!-- Title Goes Here -->
+	<title>Hsuan-Ting Wu : Portfolio</title>
+
+
+
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/jumbotron.css" rel="stylesheet">
+
+	<!-- Google Font -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:100' rel='stylesheet' type='text/css'>
+
+	<!-- Custom links for this template -->
+	<link href="style.css" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>	
+
+	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+	<script src="js/ie-emulation-modes-warning.js"></script>
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	
+	<script>
+
+		$(document).ready(function(){
+			$('.carousel').carousel()
+		});
+
+	</script>
+	<script>
+		$(document).ready(function() {
+		$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+				|| location.hostname == this.hostname) {
+
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				   if (target.length) {
+					 $('html,body').animate({
+						 scrollTop: target.offset().top
+					}, 500);
+					return false;
+				}
+			}
+		});
+		});
+	</script>
+
+	<!--Parallax-->
+	<script src="js/parallax.js"></script>
+	<!--Parallax Calls-->
+	<script>$('.section-one-parallax').parallax({imageSrc: 'images/bg.gif'});</script>
+	
+	<!--rishi's interactive script-->
+	<script type="text/javascript" src="js/jquery.rwdImageMaps.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+  </head>
+
+  <body>
+	<!-- navbar-inverse navbar-fixed-top-->
+	<nav class="navbar" role="navigation">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">Hsuan-Ting Wu</a>
+			</div>
+
+
+			<!-- Navigation -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+				<ul class="nav navbar-nav navbar-right">
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="resume.pdf">RESUME</a></li>
+				<li><a href="index.html">WORK</a></li>
+				<!--<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+						<li><a href="#">Action</a></li>
+						<li><a href="#">Another action</a></li>
+						<li><a href="#">Something else here</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Separated link</a></li>
+						</ul>
+				</li>-->
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+
+
+	<!-- Main message or call to action
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Immigration Reform</h1>
+			<p>Interaction Designer</p>
+			<!-/-p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>-->
+	<!--	</div>
+	</div> -->
+
+
+	<!-- New Container : Banner Image -->
+	<div class="container">
+		<div class="col-lg-12 col-md-12 col-xs-12 thumb">
+            <img class="img-responsive" src="images/razorfish/banner.png" alt="banner">
+        </div>
+	</div>
+	
+
+	<!-- New Container : Project Description -->
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-4">
+				<p> </p>
+			</div>
+			<div class="col-md-7" >
+				<h1>RAZORFISH : HPE.COM</h1>
+				<h2>Summer Internship, 2015</h2>
+				<p>During the internship, I helped with the development of HPE.com website. The cloud team being me and two other designers, we worked on the first pass in laying out the Cloud Solutions page and its 3 child pages, during the two design sprint period I was there. We consulted BA’s and SME’s and mapped out the structure within the existing website to understand the product information. With the zone templates as reference, we created iterations of wireframes and designed new components that simplifies user experience.</p>
+			 </div>
+			 <div class="col-md-1">
+				<p> </p>
+			</div>
+		</div>
+	</div>
+
+	
+		<!-- New Container : Images -->
+	<div class="container">
+        <a class="thumbnail" href="images/razorfish/sitemap_solution_cloud.jpg" style="border-style: none">
+            <img class="img-responsive" src="images/razorfish/sitemap_solution_cloud.jpg" alt="sitemap">
+        </a>
+        <a class="thumbnail" href="images/razorfish/hpe_diagram.png" style="border-style: none">
+            <img class="img-responsive" src="images/razorfish/hpe_diagram.png" alt="diagram">
+        </a>
+	</div>
+
+
+	<!-- New Container : Text -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<h3><br><br>THE LAYERS OF PAGES EACH HAVE SPECIFIC AUDIENCE.</h3>
+			</div>
+			<div class="col-md-7">
+				<p>The two layers of pages each have specific audience, Cloud solutions gateway page for C-level leaders to quickly grasp an idea of cloud, and the 3 children capability gateway pages for technology/engineer leaders who have deeper knowledge about the products to suggest solutions for their business based on their use case.</p>
+				<p>The end goal for the child pages were to have the technology leaders to have a better sense of what products they need according to their use case and call a representative to finalize a solution. We wanted the user to be able to see all the possible products before they makes a selection but considering language adoptability, the final version was compromised to using an accordion to fit all the information.</p>
+				<p>Here are examples of how the child pages looks like through the process (minus all the iterations that didn't make it) :</p>
+			</div>
+			<div class="col-md-1">
+				<p> </p>
+			</div>
+		</div>
+	</div>
+
+		<!-- New Container : Wireframe Images -->
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-3 col-xs-6 thumb">
+                <a class="thumbnail" href="images/razorfish/wireframe1.png" style="border-style: none">
+                    <img class="img-responsive" src="images/razorfish/wireframe1.png" alt="wireframe1">
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-3 col-xs-6 thumb">
+                <a class="thumbnail" href="images/razorfish/wireframe2.jpg" style="border-style: none">
+                    <img class="img-responsive" src="images/razorfish/wireframe2.jpg" alt="wireframe2">
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-3 col-xs-6 thumb">
+                <a class="thumbnail" href="images/razorfish/wireframe3.jpg" style="border-style: none">
+                    <img class="img-responsive" src="images/razorfish/wireframe3.jpg" alt="wireframe3">
+                </a>
+            </div>
+		</div>
+	</div>
+
+		<!-- New Container : text -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<p> </p>
+			</div>
+			<div class="col-md-7">
+				<p>During my internship, I wanted to gain some production experience in visual design as well, so I talked to creatives team and helped mock up several pages in Photoshop according to HPE's style guide, and helped created the "Connect with Us" banner.</p>
+			</div>
+			<div class="col-md-1">
+				<p> </p>
+			</div>
+		</div>
+	</div>
+
+	<!-- New Container : Icon images -->
+	<div class="container">
+		<div class="row">
+			<p><img class="img-responsive" src="images/razorfish/icon1.jpg"></p>
+			<p><img class="img-responsive" src="images/razorfish/icon2.jpg"></p>
+		</div>
+	</div>
+
+
+	<!-- New Container : Text -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<h3><br><br>THERE WERE CHANGES TO THE INTERNAL STRUCTURE TO OPTIMIZE WORK FLOW.</h3>
+			</div>
+			<div class="col-md-7">
+				<p>It was not all production. During the more relaxing times, we helped QA log design and UX bugs for pages that are being developed and getting ready to be launched since we have a better idea of how the pages and interactions should look like. We also helped working through all 200+ pages on the sitemap to check the organization of information and consistency of components used across all pages of a same level, and rework the zone diagrams to reflect any changes.</p>
+				<p>It was the biggest project I’ve ever been part of, and same for Razorfish, so there were ongoing changes to the internal structure to optimize work flow. The creatives were working on copy and design while we work on the wireframes, so there were back and forth decisions being made, so for later sprints, we began wireframing the pages during debriefing session with PM's so the wireframes can move on to creatives. I was impressed that Razorfish saw the problem and took action to adopt a new workflow in a middle of a project.</p>
+				<p>One of the most valuable experience was I got to sit in client meetings to learn how Razorfish leaders communicate design decisions to the clients, and how to handle client feedbacks.</p>
+			</div>
+			<div class="col-md-1">
+				<p> </p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="col-lg-10">
+            <P> </P>
+        </div>
+		<div class="col-lg-2">
+			<ul id="footer-nav">
+				<li><a href="https://instagram.com/hsuanting.wu"><img src="images/media_footer/instagram.png" alt="instagram"></a></li>
+				<li><a href="http://www.pinterest.com/hsuantingwu"><img src="images/media_footer/pinterest.png" alt="pinterest"></a></li>
+				<li><a href="http://www.linkedin.com/in/hsuantingwu"><img src="images/media_footer/linkedin.png" alt="linkedin"></a></li>
+				<li><a href="mailto:hsuanting.wu@gmail.com"><img src="images/media_footer/email.png" alt="email"></a></li>
+			</ul>
+		</div>
+	</div>
+
+		<!-- New Container : Sources -->
+	<!-- <div class="container" id="source">
+		<div class="row">
+			<div class="col-md-12">
+				<H5>Sources</H5>
+				<p><a href="www.whitehouse.gov">The White House</a></p>
+				<p><a href="www.dhs.gov">Department of Homeland Security</a></p>
+				<p><a href="www.pewresearch.org">Pew Research Center</a></p>
+			</div>
+		</div>
+	</div>-->
+
+		<hr>
+	</div>
+	
+	<script type="text/javascript" src="js/retina.js"></script>
+
+	<!-- Bootstrap core JavaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	<script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

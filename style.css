@@ -1,0 +1,201 @@
+/***************************/
+/*****  Custom Styles  *****/
+/***************************/
+
+
+
+/*******  Typography  ******/
+
+.navbar-brand {
+	font-family: "bebasNeue";
+	font-size: 30px;
+	letter-spacing: 1px;
+	color: black;
+	}
+	
+.nav {
+	font-family: "bebasNeue";
+	font-size: 13px;
+	letter-spacing: 1px;
+	line-height: 1.6em;
+	}
+	
+a {
+	color: #999999;
+}
+
+/*project title*/ 
+h1 {
+	font-family: "bebasNeue";
+	font-size: 2.1em;
+	letter-spacing: 0.06em;
+	line-height: 1.5em;
+	color: #222222;
+	margin-bottom:0;
+}
+
+/*project time*/
+h2 {
+	font-family: "karlaItalic";
+	font-size: 10px;
+    line-height: 1.8em;
+	color: #575756;
+	margin-top: 0;
+}
+
+/*callout text*/
+h3 {
+	font-family: "bebasNeue";
+	font-size: 1.4em;
+	letter-spacing: 0.06em;
+	line-height: 1.2em;
+	color: black;
+	text-align: right;
+}
+
+/*about titles*/
+h4 {
+	font-family: "bebasNeue";
+	font-size: 1.4em;
+	letter-spacing: 0.06em;
+	line-height: 1.2em;
+	color: black;
+}
+
+p {
+	font-family: "karla";
+	color: #575756;
+	font-size: 12px;
+    line-height: 1.8em;
+	}
+
+
+@font-face {
+    font-family: karla;
+    src: url(fonts/Karla-Regular.ttf);
+}
+
+@font-face {
+    font-family: karlaItalic;
+    src: url(fonts/Karla-Italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: bebasNeue;
+    src: url(fonts/BebasNeue_Bold.otf);
+    font-style: bold;
+}
+
+
+body {
+	padding-top: 30px; 
+	background-color: #ffffff;
+}
+
+.row {
+	padding: 0 0 0 0px;
+}
+
+.tile {
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.container {
+	padding-top: 17px;
+	padding-bottom: 17px;
+	padding-left: 0px;
+	padding-right: 0px;
+	/*width: 100%;*/
+	width: 950px;
+	}
+	
+/*.container:last-of-type {
+	padding-bottom: 0px;
+	}*/
+
+.navbar .container {
+	padding: 0 0 0 0;
+	background-color: #ffffff;
+}
+	
+.container-full .container {
+	padding: 0px 0px;
+	background-color: #ffffff;
+	}
+
+.navbar {
+	background-color: #ffffff;
+	border: none;
+	margin-bottom: 0px;
+}
+
+#footer-nav {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+#footer-nav li {
+	float: right;
+	list-style-type: none;
+	padding-right: 1px;
+
+}
+
+#footer-nav img {
+	width: 22px;
+}
+	
+/*.jumbotron {
+	height: auto;
+	margin-bottom: 0px;
+	}*/
+	
+/*.jumbotron .container {
+	padding-top: 0px;
+	}*/
+	
+	
+	
+/*****  Custom Styles  *****/	
+
+/*.btn-primary {
+	background-color: #333333;
+	border-color: #999999;
+	}
+	
+.btn-primary:hover {
+	background-color: #666666;
+	border-color: #999999;
+	}
+*/
+
+.small_txt {
+	font-family: "karla";
+	font-size: 8px;
+	text-align: center;
+}
+
+.thumbnail {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+.thumb {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+/******  Section One  ******/
+
+.section-one {
+	background: url('images/bg.gif') repeat;
+	}
+	
+.section-one h1, .section-one h2, .section-one h3, 
+.section-one h5, .section-one h4, .section-one p {
+	color: #ffffff;
+	}
